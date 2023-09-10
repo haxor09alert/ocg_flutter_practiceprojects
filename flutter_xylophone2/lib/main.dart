@@ -84,5 +84,5 @@ Widget getView(int pos, Color color) {
 
 void playSound(int pos) {
   final audioPlayer = AudioPlayer();
-  audioPlayer.play(AssetSource('assets_note$pos.wav'));
+  audioPlayer.play(AssetSource('note$pos.wav'));
 }
